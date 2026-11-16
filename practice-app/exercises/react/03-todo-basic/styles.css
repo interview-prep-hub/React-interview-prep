@@ -1,0 +1,31 @@
+.todo-app {
+  max-width: 420px;
+  font-family: system-ui, sans-serif;
+}
+
+.todo-app form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.todo-app ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.todo-app li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+/* Applied to the text of a todo that is finished. */
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
